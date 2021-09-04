@@ -37,5 +37,8 @@ public class Publication {
 
     }
 
-    public void printInfo(){}
+    @Override
+    public String toString() {
+        return title + ", " + publisher + ", " + year;
+    }
 }
