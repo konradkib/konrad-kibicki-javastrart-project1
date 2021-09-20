@@ -1,8 +1,9 @@
 package model;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
-public class Library {
+public class Library implements Serializable {
 
     private static final int MAX_PUBLICATONS = 2000;
     private int publicationsNumber;
